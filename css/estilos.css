@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.Logo {
+  height: 100px;
+  width: 100px; }
+
+.container__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "body"  "main" "footer"; }
+
+.navbar-nav {
+  background-color: rgba(0, 0, 0, 0.211);
+  border-radius: 10px; }
+
+/**home**/
+.titulo {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  grid-area: body;
+  background-image: url(../img/cabezal-cervezas.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  align-items: center; }
+
+h1 {
+  display: flex;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  justify-content: center; }
+
+.contenedor__footer {
+  background-color: #ffbf00; }
+
+.logos {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center; }
+
+.table {
+  background-color: #ffbf00; }
+
+.imagen2 {
+  background-image: url(../img/pinta3.png);
+  background-size: cover;
+  height: 7em;
+  width: 100%;
+  text-align: center;
+  padding-top: 15%;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 0.15cm;
+  color: rgba(255, 255, 255, 0.501);
+  font-size: 100px; }
+
+.imagen2__animate {
+  background-image: url(../img/cerveza-1920-2.png);
+  background-size: cover;
+  height: 7em;
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 15%;
+  color: white;
+  font-family: 'Staatliches', cursive; }
+
+main {
+  background-color: #ffbf00; }
+
+iframe {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 600px; }
+
+.logos__footer {
+  width: 2.5em;
+  height: 2.5em; }
+
+.mt-1 {
+  margin-top: 1em; }
+
+.contenedor__footer {
+  background-color: #ffbf00; }
+
+/**CONTACTO**/
+.container__formulario {
+  display: grid;
+  grid-template-areas: main; }
