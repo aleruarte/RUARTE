@@ -14,7 +14,9 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
-  grid-template-areas: "body"  "main" "footer"; }
+  grid-template-areas: "body" 
+ "main"
+ "footer"; }
 
 .navbar-nav {
   background-color: rgba(0, 0, 0, 0.211);
